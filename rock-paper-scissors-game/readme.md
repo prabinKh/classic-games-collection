@@ -1,6 +1,8 @@
 # Rock Paper Scissors Game
 
 A modern, responsive, and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. This project features a sleek user interface with vibrant animations, a gradient-themed design, and full responsiveness across devices.
+<img width="1012" height="729" alt="Screenshot 2025-07-21 at 6 22 19 PM" src="https://github.com/user-attachments/assets/f6734fa2-79d3-47f8-a6cc-e034ad112aaa" />
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -77,6 +79,3 @@ Contributions are welcome! To contribute:
 3. Make your changes and commit (`git commit -m 'Add your feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
