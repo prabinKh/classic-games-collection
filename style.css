@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vmin;
+    height: 60vmin;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 8vmin;
+    color: #e74c3c;
+    background: #fef9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out, background 0.3s;
+    cursor: pointer;
+}
+
+.box:hover:not(:disabled) {
+    background-color: #f1c40f;
+    transform: scale(1.05);
+}
+
+.box:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+#reset, #newbutton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset:hover,
+#newbutton:hover {
+    background-color: #34495e;
+}
+
+#message {
+    color: #ffeb3b;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    animation: popin 0.4s ease-out;
+}
+
+@keyframes popin {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
