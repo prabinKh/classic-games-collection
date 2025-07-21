@@ -1,20 +1,17 @@
 # 🎮 Tic Tac Toe Game
 
-A fun, responsive, and interactive Tic Tac Toe (XO) game built with HTML, CSS, and vanilla JavaScript.
+A fun, responsive, and interactive Tic Tac Toe (XO) game built with HTML, CSS, and JavaScript.
 
 ---
 
 ## 📸 Screenshot
+<img width="1049" height="804" alt="Screenshot 2025-07-21 at 4 05 44 PM" src="https://github.com/user-attachments/assets/52f99aeb-8b30-4ee0-a341-6e9e67c25281" />
+<img width="1131" height="755" alt="Screenshot 2025-07-21 at 4 05 19 PM" src="https://github.com/user-attachments/assets/2b068b32-99fa-468f-a4d4-05ae2400dcc1" />
 
-![Tic Tac Toe UI Preview](preview.png)
-
----
-
-## 🚀 Live Demo
-
-👉 Coming Soon (or deploy it on [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), or [Vercel](https://vercel.com/))
 
 ---
+
+
 
 ## 🛠 Features
 
@@ -40,7 +37,9 @@ A fun, responsive, and interactive Tic Tac Toe (XO) game built with HTML, CSS, a
 
 ```
 tic-tac-toe/
-├── index.html    # Main HTML file with embedded CSS and JavaScript
+├── index.html    # Main HTML file
+├── style.css     # Styling for the game
+├── home.js       # Game logic and interactivity
 └── README.md     # Project documentation
 ```
 
@@ -77,19 +76,5 @@ tic-tac-toe/
 
 ---
 
-## 📝 Notes
-
-- Replace `yourusername` in the clone command with your actual GitHub username.
-- The live demo link will be updated once the project is deployed.
-- The `index.html` file contains all HTML, CSS, and JavaScript, making it a single-file application for simplicity.
-- Feel free to contribute by submitting issues or pull requests!
-
----
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 Happy gaming! 🎲
