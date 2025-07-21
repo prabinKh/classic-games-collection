@@ -14,8 +14,7 @@ This repository contains two modern, responsive, and interactive games: **Rock P
 - [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 This project showcases two classic games implemented with modern web technologies. Both games are designed to be engaging, visually appealing, and accessible on various devices, from desktops to mobiles. The **Rock Paper Scissors** game allows players to compete against the computer, while the **Tic Tac Toe** game supports two-player gameplay with intuitive controls and winner detection.
