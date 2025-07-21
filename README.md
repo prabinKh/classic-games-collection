@@ -1,6 +1,6 @@
 # 🎮 Tic Tac Toe Game
 
-A fun, responsive, and interactive Tic Tac Toe (XO) game built with HTML, CSS, and vanilla JavaScript.
+A fun, responsive, and interactive Tic Tac Toe (XO) game built with HTML, CSS, and JavaScript.
 
 ---
 
