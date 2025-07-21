@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+h1{
+    background-color: blue;
+    color:white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 50%;
+    cursor: pointer;
+
+
+
+
+
+}
+.choices{
+    height: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5rem;
+
+}
+
+.choices:hover{
+    opacity: 0.5;
+
+}
+.socre-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+
+}
+#you-socre ,#computer-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+        margin-top: 5rem;
+}
+
+#msg{
+    background-color:black;
+    color: wheat;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: inline;
+}
